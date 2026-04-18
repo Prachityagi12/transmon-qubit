@@ -45,11 +45,10 @@ Demonstrates the increase in intracavity photon number as a function of applied 
 
 Photon Splitting -90dBm(plots/Photon\_num\_splitting(-90dbm).png)
 
----
-
 ### Photon Number Splitting (-100 dBm)
 
 Photon Splitting -100dBm(plots/Photon\_number\_splitting(-100dbm).png)
+
 At different readout powers, the resonator spectrum splits into multiple peaks corresponding to different photon number states.
 
 ---
