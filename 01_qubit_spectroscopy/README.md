@@ -11,25 +11,25 @@ The main objective is to characterize the qubit by extracting its transition fre
 ---
 
 ## What This Folder Contains
-1. Two-Tone Spectroscopy
+1. # Two-Tone Spectroscopy
 - Measurement of qubit transition frequency using a two-tone method
 - Identification of resonance peak corresponding to |g⟩ → |e⟩ transition
 
-2. Power Broadening Analysis
+2. # Power Broadening Analysis
 - Study of linewidth variation with increasing drive power
 - Observation of transition from sharp Lorentzian peak to broadened response
 - Demonstrates decoherence effects under strong driving
 
-3. Optimal Drive Power 
+3. # Optimal Drive Power 
 - Determination of optimal operating power for spectroscopy
 - Trade-off between signal strength and minimal spectral distortion
 - Selection of regime for accurate qubit characterization
 
-4. Linewidth vs Drive Power
+4. # Linewidth vs Drive Power
 - Systematic study of spectral linewidth as a function of drive amplitude
 - Identification of linear and nonlinear response regimes
 
-5. Coherence Time Extraction (T₂*)
+5. # Coherence Time Extraction (T₂*)
 - Extraction of coherence time from spectral linewidth
 - Relation between linewidth and dephasing time
 
