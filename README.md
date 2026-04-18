@@ -113,3 +113,4 @@ Frequency-domain characterization of the qubit:
 - All simulations were performed using Python scripts and Jupyter notebooks.
 - The `00_resonator_spectroscopy` folder contains Jupyter notebooks (`.ipynb`) with code and resulting plots for analysis and visualization.
 - The `01_dispersive_regime` and `02_qubit_spectroscopy` folders primarily contain Python scripts (`.py`) for simulation and data generation.
+
