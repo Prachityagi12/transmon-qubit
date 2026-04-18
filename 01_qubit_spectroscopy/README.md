@@ -14,24 +14,41 @@ The main objective is to characterize the qubit by extracting its transition fre
 ### 1.Two-Tone Spectroscopy
 - Measurement of qubit transition frequency using a two-tone method
 - Identification of resonance peak corresponding to |g⟩ → |e⟩ transition
+## Result:
+Two Tone
+The peak position gives the qubit transition frequency, while the linewidth provides information about decoherence.
 
 ### 2. Power Broadening Analysis
 - Study of linewidth variation with increasing drive power
 - Observation of transition from sharp Lorentzian peak to broadened response
 - Demonstrates decoherence effects under strong driving
+## Result (High Power):
+Power Broadening High
+
+## Result (g = 10, Q = 2000):
+Increasing drive power leads to linewidth broadening, indicating saturation and reduced coherence.
 
 ### 3. Optimal Drive Power 
 - Determination of optimal operating power for spectroscopy
 - Trade-off between signal strength and minimal spectral distortion
 - Selection of regime for accurate qubit characterization
+## Insight:
+Low power → sharp peaks (accurate but weak signal)
+High power → broad peaks (strong signal but distorted)
+Optimal region balances signal-to-noise ratio and minimal broadening.
 
 ### 4. Linewidth vs Drive Power
 - Systematic study of spectral linewidth as a function of drive amplitude
 - Identification of linear and nonlinear response regimes
+## Results:
+Linewidth remains constant at low power and increases at high power due to power broadening.
 
 ### 5. Coherence Time Extraction (T₂*)
 - Extraction of coherence time from spectral linewidth
-- Relation between linewidth and dephasing time
+## Result:
+Because Coherence time is inversely related to linewidth:
+At Narrow peak → high T₂*
+At Broad peak → low T₂*
 
 ---
 
@@ -52,7 +69,7 @@ At higher drive powers, nonlinear effects such as power broadening distort the s
 ---
 
 ## Summary
-This folder focuses on the frequency-domain characterization of a superconducting qubit using spectroscopy techniques. It captures both linear-response behavior and power-dependent nonlinear effects, enabling accurate extraction of qubit parameters.
+This folder demonstrates how frequency-domain spectroscopy can be used to extract key qubit parameters and analyze both linear and nonlinear regimes, providing a complete characterization of a superconducting qubit.
 
 
 
