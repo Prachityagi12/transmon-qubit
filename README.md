@@ -97,7 +97,8 @@ Frequency-domain characterization of the qubit:
 - Python  
 - NumPy / SciPy  
 - Matplotlib  
-- Jupyter Notebook  
+- Jupyter Notebook
+- QuTip (Quantum Toolbox in Python)
 
 ---
 
