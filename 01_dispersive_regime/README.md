@@ -29,27 +29,27 @@ In this regime, there is no direct energy exchange between the qubit and the res
 
 ### Resonator Frequency vs Readout Power
 
-[Resonator Frequency](plots/Resonator\_fre\_vs\_readout\_pow.png)
+Resonator Frequency(plots/Resonator\_fre\_vs\_readout\_pow.png)
 Shows how the resonator frequency shifts with increasing readout power due to nonlinear effects.
 
 ---
 
 ### Photon Number vs Readout Power
 
-!\[Photon Number](plots/Photon\_number\_vs\_readout\_pow.png)
+Photon Number(plots/Photon\_number\_vs\_readout\_pow.png)
 Demonstrates the increase in intracavity photon number as a function of applied drive power.
 
 ---
 
 ### Photon Number Splitting (-90 dBm)
 
-!\[Photon Splitting -90dBm](plots/Photon\_num\_splitting(-90dbm).png)
+Photon Splitting -90dBm(plots/Photon\_num\_splitting(-90dbm).png)
 
 ---
 
 ### Photon Number Splitting (-100 dBm)
 
-!\[Photon Splitting -100dBm](plots/Photon\_number\_splitting(-100dbm).png)
+Photon Splitting -100dBm(plots/Photon\_number\_splitting(-100dbm).png)
 At different readout powers, the resonator spectrum splits into multiple peaks corresponding to different photon number states.
 
 ---
