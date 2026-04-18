@@ -3,9 +3,7 @@
 ---
 
 ## Overview
-
 This folder contains simulation and analysis of frequency-domain spectroscopy of a superconducting transmon qubit in a circuit QED system.
-
 The main objective is to characterize the qubit by extracting its transition frequency, linewidth, and coherence time (T₂*) using microwave drive-based spectroscopy techniques.
 
 ---
