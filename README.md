@@ -114,3 +114,9 @@ Frequency-domain characterization of the qubit:
 - The `00_resonator_spectroscopy` folder contains Jupyter notebooks (`.ipynb`) with code and resulting plots for analysis and visualization.
 - The `01_dispersive_regime` and `02_qubit_spectroscopy` folders primarily contain Python scripts (`.py`) for simulation and data generation.
 
+---
+
+## References
+- This project is inspired by spectroscopic measurements in circuit QED systems.
+- Based on concepts from Chapter 6: *“Spectroscopic Measurements of Transmon-Resonator cQED Devices”*, Ph.D. thesis (B. Suri, 2015).
+
