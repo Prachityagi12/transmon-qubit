@@ -54,6 +54,7 @@ Baseline behavior refers to the intrinsic response of the resonator in the absen
 - NumPy / SciPy  
 - Matplotlib  
 - Jupyter Notebook  
+- QuTip
 
 ---
 
