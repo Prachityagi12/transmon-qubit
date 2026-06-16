@@ -1,7 +1,8 @@
 # M.Tech Thesis
 
-## Title
-Simulation and Spectroscopic Analysis of a Superconducting Transmon Qubit Coupled to a Microwave Resonator
+## **Title**
+
+**Simulation and Spectroscopic Analysis of a Superconducting Transmon Qubit Coupled to a Microwave Resonator**
 
 This repository contains the M.Tech thesis work on the simulation and spectroscopic characterization of a superconducting transmon qubit coupled to a microwave resonator within the circuit QED framework.
 
@@ -16,6 +17,6 @@ The thesis covers:
 
 The simulations were performed using numerical methods based on the Lindblad master equation and QuTiP.
 
-Supervisor: Prof. Baladitya Suri  
-Department of Instrumentation and Applied Physics  
-Indian Institute of Science (IISc), Bengaluru
+**Supervisor:** Prof. Baladitya Suri  
+**Department:** Department of Instrumentation and Applied Physics  
+**Institution:** Indian Institute of Science (IISc), Bengaluru
