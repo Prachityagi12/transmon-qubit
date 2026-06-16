@@ -1,122 +1,229 @@
 # Transmon Qubit & Resonator Spectroscopy (Circuit QED)
 
-## Project Structure
+## Overview
 
-- 00_resonator_spectroscopy → Bare resonator analysis  
-- 01_dispersive_regime → Qubit–resonator interaction  
-- 02_qubit_spectroscopy → Qubit characterization  
+This project simulates a superconducting transmon qubit coupled to a readout resonator within the circuit QED framework.
+
+The primary objective is to investigate resonator and qubit spectroscopy and extract key physical parameters, including:
+
+* Resonator resonance frequency
+* Resonator linewidth
+* Resonator quality factor
+* Optimal readout power
+* Qubit transition frequency
+* Optimal drive power
+* Transmon anharmonicity
+
+The project further explores qubit–resonator interactions in the dispersive regime, photon-number-resolved behavior, power-dependent effects, and coherence characterization. The simulations reproduce several important phenomena observed in superconducting qubit experiments, including dispersive frequency shifts, photon-number splitting, power broadening, dressed-state formation, and anharmonicity extraction.
+
+By combining resonator spectroscopy, dispersive analysis, qubit spectroscopy, anharmonicity measurements, and time-domain characterization, this repository aims to bridge theoretical modeling with realistic experimental techniques used in superconducting quantum computing platforms.
+
+The simulations are based on numerical solutions of open quantum system dynamics using the Lindblad master equation and QuTiP.
 
 ---
 
-## Overview
-This project simulates a transmon qubit coupled to a readout resonator in the circuit QED framework. The goal is to study resonator spectroscopy and extract key physical parameters such as resonance frequency, linewidth, and quality factor.
+## Project Structure
 
-The simulations further explore the dispersive regime, where qubit–resonator interaction leads to measurable frequency shifts and photon-number splitting. The project extends to full qubit characterization, including linewidth analysis, power-dependent effects, and photon-number-resolved behavior.
+```text
+transmon-qubit/
+│
+├── 00_resonator_spectroscopy/
+├── 01_dispersive_regime/
+├── 02_qubit_spectroscopy/
+├── 03_Anharmonicity/
+├── 04_Time_Domain_Characterization/
+│
+├── Plots/
+├── Thesis/
+├── Presentation/
+└── README.md
+```
 
 ---
 
 ## What This Project Covers
-This project bridges theoretical modeling with realistic superconducting qubit measurement techniques.
 
-- Simulation of resonator response under varying drive conditions  
-- Linear and polar representation of resonator spectroscopy data  
-- Analysis of dispersive regime behavior
-- Observation of photon-number splitting in the strong dispersive regime   
+### Resonator Spectroscopy
 
-- Frequency-domain qubit spectroscopy using dispersive readout  
-- Linewidth analysis and extraction of coherence time \( T_2^* \)  
-- Power-dependent effects including power broadening and dressed-state formation  
+* Bare resonator characterization
+* Resonance frequency extraction
+* Linewidth estimation
+* Quality factor calculation
+* Linear and polar visualization of spectroscopy data
 
-- Extraction of key physical parameters from simulated data  
+### Dispersive Regime Analysis
+
+* Qubit–resonator interaction
+* Dispersive frequency shifts
+* Photon number estimation
+* Photon-number splitting
+* Strong dispersive coupling effects
+
+### Qubit Spectroscopy
+
+* Two-tone spectroscopy
+* Qubit transition frequency extraction
+* Linewidth analysis
+* Estimation of coherence time (T₂*)
+* Power broadening analysis
+* Dressed-state formation
+
+### Anharmonicity Extraction
+
+* Continuous frequency sweep spectroscopy
+* Adaptive spectroscopy techniques
+* Identification of higher transmon transitions
+* Extraction of transmon anharmonicity
+* Comparison of spectroscopy strategies
+
+### Time-Domain Characterization
+
+* Rabi oscillations
+* Ramsey interference
+* Energy relaxation measurements (T₁)
+* Coherence measurements (T₂)
+* Qubit control and calibration techniques
 
 ---
 
 ## Key Insights
-- Clear resonance peaks observed with accurate extraction of frequency, linewidth, and quality factor  
-- Frequency shift in the dispersive regime consistent with theoretical expectations  
-- Photon-number splitting observed, confirming strong dispersive coupling  
 
-- Qubit transition frequency accurately extracted from low-power spectroscopy  
-- Linewidth analysis used to estimate coherence time \( T_2^* \)  
-- Power-dependent broadening observed, showing transition from linear response to saturation  
-
-- Emergence of dressed-state splitting at intermediate drive powers  
-- Optimal drive regime identified to balance signal strength and minimal decoherence  
-
-- Polar plots provide improved visualization of amplitude and phase compared to linear plots  
+* Accurate extraction of resonator frequency, linewidth, and quality factor
+* Observation of dispersive shifts consistent with circuit QED theory
+* Clear photon-number splitting in the strong dispersive regime
+* Accurate determination of qubit transition frequencies
+* Estimation of coherence times from linewidth measurements
+* Observation of power broadening and saturation effects
+* Identification of optimal spectroscopy power regimes
+* Extraction of transmon anharmonicity using multiple spectroscopy methods
+* Improved visualization through linear and polar representations
 
 ---
 
 ## Physical Workflow
 
-This project follows the actual experimental workflow used in circuit QED systems:
+The repository follows a realistic superconducting qubit measurement pipeline:
 
-1. **Resonator Spectroscopy** → Characterize bare resonator properties  
-2. **Dispersive Regime** → Study qubit–resonator interaction  
-3. **Qubit Spectroscopy** → Extract qubit parameters and coherence properties  
+```text
+Resonator Spectroscopy
+          ↓
+Dispersive Regime Analysis
+          ↓
+Qubit Spectroscopy
+          ↓
+Anharmonicity Extraction
+          ↓
+Time-Domain Characterization
+```
 
-This structured approach mirrors real superconducting qubit measurement pipelines.
+This mirrors the workflow commonly used in experimental circuit QED systems.
 
 ---
 
-## Repository Structure Details
+## Repository Details
 
 ### 00_resonator_spectroscopy
-Study of the bare resonator response, including:
-- Resonance frequency extraction  
-- Linewidth and quality factor estimation  
-- Linear and polar visualization of spectroscopy data  
 
----
+Study of the bare resonator response:
+
+* Resonance frequency extraction
+* Linewidth estimation
+* Quality factor calculation
+* Linear and polar spectroscopy plots
 
 ### 01_dispersive_regime
-Analysis of qubit–resonator interaction in the dispersive limit:
-- Qubit-state-dependent frequency shift  
-- Photon number vs readout power  
-- Photon-number splitting in strong dispersive regime  
 
-**Key Outcome**
-- Observation of photon-number splitting and dispersive readout physics  
+Analysis of qubit–resonator interaction:
 
----
+* Dispersive frequency shifts
+* Photon number estimation
+* Photon-number splitting
 
 ### 02_qubit_spectroscopy
-Frequency-domain characterization of the qubit:
-- Two-tone spectroscopy for transition frequency extraction  
-- Linewidth analysis and coherence time \( T_2^* \) estimation  
-- Power broadening and dressed-state formation  
-- Optimal drive power identification  
 
-**Key Outcomes**
-- Accurate extraction of qubit frequency and linewidth  
-- Identification of optimal operating regimes  
+Frequency-domain characterization of the qubit:
+
+* Two-tone spectroscopy
+* Linewidth analysis
+* Coherence estimation
+* Power broadening studies
+
+### 03_Anharmonicity
+
+Extraction of transmon anharmonicity:
+
+* Brute-force spectroscopy sweeps
+* Adaptive spectroscopy sweeps
+* Comparison of extraction methods
+* Anharmonicity figures and analysis notebooks
+
+### 04_Time_Domain_Characterization
+
+Time-domain measurements and coherence studies:
+
+* Rabi oscillations
+* Ramsey experiments
+* Relaxation and dephasing analysis
+
+### Plots
+
+Collection of simulation and analysis figures generated throughout the project.
+
+### Thesis
+
+Complete M.Tech thesis:
+
+**Simulation and Spectroscopic Analysis of a Superconducting Transmon Qubit Coupled to a Microwave Resonator**
+
+### Presentation
+
+Final project presentation summarizing methodology, simulations, and results.
 
 ---
 
 ## Tools & Technologies
-- Python  
-- NumPy / SciPy  
-- Matplotlib  
-- Jupyter Notebook
-- QuTip (Quantum Toolbox in Python)
+
+* Python
+* NumPy
+* SciPy
+* Matplotlib
+* Jupyter Notebook
+* QuTiP (Quantum Toolbox in Python)
 
 ---
 
 ## How to Run
-1. Clone the repository  
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
 
-## Note
-- This work is inspired by experimental circuit QED setups and aims to bridge theoretical simulation with realistic superconducting qubit behavior.
-- All simulations were performed using Python scripts and Jupyter notebooks.
-- The `00_resonator_spectroscopy` folder contains Jupyter notebooks (`.ipynb`) with code and resulting plots for analysis and visualization.
-- The `01_dispersive_regime` and `02_qubit_spectroscopy` folders primarily contain Python scripts (`.py`) for simulation and data generation.
+Clone the repository:
+
+```bash
+git clone https://github.com/Prachityagi12/transmon-qubit.git
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the notebooks or Python scripts contained in the corresponding folders.
+
+---
+
+## Academic Context
+
+This work was carried out as part of an M.Tech project on superconducting quantum circuits and circuit QED.
+
+The project aims to bridge theoretical simulation with realistic experimental techniques used in transmon-based quantum computing platforms.
 
 ---
 
 ## References
-- This project is inspired by spectroscopic measurements in circuit QED systems.
-- Based on concepts from Chapter 6: *“Spectroscopic Measurements of Transmon-Resonator cQED Devices”*, Ph.D. thesis (B. Suri, 2015).
+
+This work is inspired by spectroscopic measurements performed in superconducting circuit QED systems.
+
+Primary reference:
+
+B. Suri, *Spectroscopic Measurements of Transmon–Resonator cQED Devices*, Ph.D. Thesis, 2015.
+
 
