@@ -17,6 +17,6 @@ The thesis covers:
 
 The simulations were performed using numerical methods based on the Lindblad master equation and QuTiP.
 
-**Supervisor:** Prof. Baladitya Suri  
-**Department:** Department of Instrumentation and Applied Physics  
-**Institution:** Indian Institute of Science (IISc), Bengaluru
+**Supervisor: Prof. Baladitya Suri**  
+**Department: Department of Instrumentation and Applied Physics**  
+**Institution: Indian Institute of Science (IISc), Bengaluru**
