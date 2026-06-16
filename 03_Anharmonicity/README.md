@@ -1,54 +1,26 @@
-\# Anharmonicity Analysis
-
-
-
-\# Anharmonicity Analysis
-
-
+# Anharmonicity Analysis
 
 This folder contains the notebooks and figures used for extracting transmon qubit anharmonicity.
 
+## Notebooks
 
+- Brute_force_anh.ipynb
+  - Uniform frequency sweep based anharmonicity extraction.
 
-\## Notebooks
+- adap_anh.ipynb
+  - Adaptive spectroscopy based anharmonicity extraction.
 
-
-
-\- Brute\_force\_anh.ipynb
-
-&#x20; - Uniform frequency sweep based anharmonicity extraction.
-
-
-
-\- adap\_anh.ipynb
-
-&#x20; - Adaptive spectroscopy based anharmonicity extraction.
-
-
-
-\## Figures
-
-
+## Figures
 
 Contains adaptive and continuous spectroscopy sweeps for drive powers ranging from -100 dBm to -60 dBm.
 
-
-
 Examples:
+- transmon_spec_adaptive_sweep_-100dBm
+- transmon_spec_adaptive_sweep_-90dBm
+- transmon_spec_continuous_sweep_-100dBm
+- transmon_spec_continuous_sweep_-90dBm
 
-\- transmon\_spec\_adaptive\_sweep\_-100dBm
-
-\- transmon\_spec\_adaptive\_sweep\_-90dBm
-
-\- transmon\_spec\_continuous\_sweep\_-100dBm
-
-\- transmon\_spec\_continuous\_sweep\_-90dBm
-
-
-
-\## Results
-
-
+## Results
 
 Final extracted anharmonicity values and discussion are presented in Chapter 5 of the thesis.
 
